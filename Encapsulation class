@@ -16,7 +16,7 @@ public class Encapsulation {
 			this.userName = userName;   //pede sya irename since username lang sya
 		}
 		
-		String getUserName() { // username getter
+		String getUserName() { 
 			return userName;
 		}
 		
