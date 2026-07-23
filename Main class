@@ -1,0 +1,20 @@
+package OOP_Journey;
+public class ObjectOrientedProgramming {
+	public static void main(String[] args) {
+
+		Encapsulation e = new Encapsulation("dreigod", "George Andrei", 500);
+		
+		e.setUserName("drei.dev");
+		String username = e.getUserName();           //read and write tong part na to
+		System.out.println(username);
+		System.out.println();
+		
+		String realname = e.getRealName();
+		System.out.println(realname);                   // read only lang sya
+		System.out.println();
+		
+		e.setLevel(501);
+		int level = e.getLevel();                   // read and write din
+		System.out.println(level);
+	}
+} 
