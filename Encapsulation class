@@ -1,0 +1,35 @@
+package OOP_Journey;
+
+public class Encapsulation {
+		
+		private String userName;
+		private String realName;
+		private int level;
+		
+		Encapsulation(String userName, String realName, int level){
+			this.userName = userName;
+			this.realName = realName;
+			this.level = level;
+		}
+		
+		void setUserName(String userName) { 
+			this.userName = userName;   //pede sya irename since username lang sya
+		}
+		
+		String getUserName() { // username getter
+			return userName;
+		}
+		
+		String getRealName() {    // di pwedeng irename to kasi REAL name sya ng tao. naka read only lang to
+			return realName;
+		}
+		
+		void setLevel(int level) {     // pwedeng palitan value since game level sya. nag aup and down ang levels
+			this.level = level;
+		}
+		
+		int getLevel() {
+			return level;
+		}
+		
+}
